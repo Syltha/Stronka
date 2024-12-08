@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("zdj/tlo3.jpg");
+    background-repeat: no-repeat;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+.wybrany {
+    background-color: #4a4e4e;
+    color: white;
+}
+  
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 34px;
+    text-decoration: none;
+    font-size: 23px;
+}
+  
+.menu a:hover {
+    background-color: #4a4e4e;
+    color: black;
+}
+  
+.menu .log {
+    float: right;
+}
+
+#napis{
+    padding: 15px 0 30px 0;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+#forma{
+    color: white;
+    background-color: #4a4e4e;
+    width: 40%;
+    margin: auto;
+    border-radius: 12px;
+    padding: 23px;
+    opacity: 0.9;
+}
+
+.form{
+    text-align: center;
+}
+
+input, select{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+  
+p{
+    opacity: 100;
+    font-size: 23px;
+}
+
+input[type="submit"]{
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 6px 0;
+    opacity: 100;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #46b624;
+    color: black;
+}
